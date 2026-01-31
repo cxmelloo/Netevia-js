@@ -4,6 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Netevia Js</title>
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
 		<link href="./output.css" rel="stylesheet" />
 	</head>
 	<body>
@@ -11,7 +14,7 @@
 			<video autoplay muted loop class="absolute top-0 left-0 w-full object-cover h-full" src="img/hero/video.mp4"></video>
 			<!-- HEADER START -->
 			<header class="bg-transparent py-7 lg:py-10 relative">
-				<div class="max-w-310 px-5 mx-auto flex items-center lg:justify-start justify-between gap-3 lg:gap-7">
+				<div class="max-w-[1240px] px-5 mx-auto flex items-center lg:justify-start justify-between gap-3 lg:gap-7">
 					<button class="flex lg:hidden">
 						<img src="img/header/menu.svg" alt="menu" />
 					</button>
@@ -54,16 +57,17 @@
 
 			<!-- HERO START -->
 			<section class="pt-5 md:pt-32.25 pb-72.25 md:pb-42.25 relative top-0 left-0">
-				<div class="max-w-188.25 mx-auto px-5 md:text-center">
+				<div class="max-w-[752px] mx-auto px-5 md:text-center">
 					<h1 class="font-semibold text-[45px] md:text-6xl text-white mb-3.5 leading-11.25 md:leading-16.5">
 						A Modern Approach to The ISO Industry
 					</h1>
-					<p class="max-w-161.75 md:mx-auto text-[20px] text-white leading-8 mb-5 md:mb-7">
+					<p class="max-w-[647px] md:mx-auto text-[20px] text-white leading-8 mb-5 md:mb-7">
 						Whether you are starting your first ISO or a veteran ready to scale your business, we have the tools you need to beat
 						the competition.
 					</p>
 					<a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium" href="#"
-						>Get Started <img src="img/hero/up.svg" alt=""/></a>
+						>Get Started <img src="img/hero/up.svg" alt=""
+					/></a>
 				</div>
 			</section>
 		</div>
@@ -81,256 +85,554 @@
 		</section>
 		<!-- BRAND END -->
 
-    <!-- STREAMS START -->
-    <section class="bg-[#121212] py-10 md:py-14">
-      <div class="max-w-310 mx-auto px-5 gap-10 lg:gap-0 flex flex-col lg:flex-row items-start">
-        <div class="max-w-100.5">
-          <h1 class="font-semibold text-[32px] leading-9 text-white mb-7">New Revenue Streams With Netevia Business Banking Services</h1>
-          <p class="font-medium text-base leading-6 mb-6 text-white">Earn new residual income from your merchant's account balances, card spend, and a one-time welcome bonus on newly activated and funded accounts.</p>
-          <a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium" href="#">ISO Banking Program<img src="img/hero/up.svg" alt="up"/></a>
-        </div>
+		<!-- STREAMS START -->
+		<section class="bg-[#121212] py-10 md:py-14">
+			<div class="max-w-[1240px] mx-auto px-5 gap-10 lg:gap-0 flex flex-col lg:flex-row items-start">
+				<div class="max-w-423">
+					<h1 class="font-semibold text-[32px] leading-9 text-white mb-7">
+						New Revenue Streams With Netevia Business Banking Services
+					</h1>
+					<p class="font-medium text-base leading-6 mb-6 text-white">
+						Earn new residual income from your merchant's account balances, card spend, and a one-time welcome bonus on newly
+						activated and funded accounts.
+					</p>
+					<a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium" href="#"
+						>ISO Banking Program<img src="img/hero/up.svg" alt="up"
+					/></a>
+				</div>
 
-				<img src="img/revenue/all.svg" alt="">
-      </div>
-    </section>
-    <!-- STREAMS END -->
+				<img src="img/revenue/all.svg" alt="" />
+			</div>
+		</section>
+		<!-- STREAMS END -->
 
 		<!-- PROCESS START -->
-    <section class=" py-10 md:py-20 bg-[#EFF0ED]">
-			<div class="bg-[#121212] max-w-[1240px] px-5 mx-auto rounded-[30px]">
-					<div class="max-w-[639px] mx-auto text-start md:text-center pt-10 md:pt-15.5">
-						<h1 class="font-semibold text-[32px] md:text-[48px] text-white leading-[53px] mb-5">Easy Onboarding Process  of New Merchants</h1>
-					<p class="text-white font-medium text-[18px] mb-4">Seamlessly onboard, underwrite, and support your merchants throughout their life cycle with our ISO Merchant Management Platform.</p>
-			  <a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-18" href="#">Get Started <img src="img/hero/up.svg" alt=""/></a>
-					</div>
+		<section class="py-10 md:py-20 bg-[#EFF0ED]">
+			<div class="bg-[#121212] max-w-[12 40px] px-5 mx-auto rounded-[30px]">
+				<div class="max-w-[639px] mx-auto text-start md:text-center pt-10 md:pt-15.5">
+					<h1 class="font-semibold text-[32px] md:text-[48px] text-white leading-[53px] mb-5">
+						Easy Onboarding Process of New Merchants
+					</h1>
+					<p class="text-white font-medium text-[18px] mb-4">
+						Seamlessly onboard, underwrite, and support your merchants throughout their life cycle with our ISO Merchant
+						Management Platform.
+					</p>
+					<a
+						class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-18"
+						href="#"
+						>Get Started <img src="img/hero/up.svg" alt=""
+					/></a>
+				</div>
 
-				<ul class="flex flex-wrap md:flex-nowrap gap-3 md:gap-7 pb-10 md:pb-20.75 max-w-240 mx-auto ">
+				<ul class="flex flex-wrap md:flex-nowrap gap-3 md:gap-7 pb-10 md:pb-20.75 max-w-240 mx-auto">
 					<li class="bg-[#1E1E1E] rounded-[22px] py-8 px-5">
-						<img class="mb-3" src="img/process/1.svg" alt="">
-						<h1 class="font-semibold text-[22px] text-white mb-3 leading-[120%]">Custom <br> Online Application</h1>
-						<p class="font-normal text-[14px] leading-[150%] text-[#9A9A9A]">Let our relationship managers create custom online application links for your agents, allowing you to sign up new merchants quickly.</p>
+						<img class="mb-3" src="img/process/1.svg" alt="" />
+						<h1 class="font-semibold text-[22px] text-white mb-3 leading-[120%]">
+							Custom <br />
+							Online Application
+						</h1>
+						<p class="font-normal text-[14px] leading-[150%] text-[#9A9A9A]">
+							Let our relationship managers create custom online application links for your agents, allowing you to sign up new
+							merchants quickly.
+						</p>
 					</li>
 
 					<li class="bg-[#1E1E1E] rounded-[22px] py-8 px-5">
-						<img class="mb-3" src="img/process/2.svg" alt="">
-						<h1 class="font-semibold text-[22px] text-white mb-3 leading-[120%]">Transparent <br> Underwriting Process</h1>
-						<p class="font-normal text-[14px] leading-[150%] text-[#9A9A9A]">With our Merchant Management Platform, you can see what stage of the underwriting process your merchants are at and the next steps.</p>
+						<img class="mb-3" src="img/process/2.svg" alt="" />
+						<h1 class="font-semibold text-[22px] text-white mb-3 leading-[120%]">
+							Transparent <br />
+							Underwriting Process
+						</h1>
+						<p class="font-normal text-[14px] leading-[150%] text-[#9A9A9A]">
+							With our Merchant Management Platform, you can see what stage of the underwriting process your merchants are at and
+							the next steps.
+						</p>
 					</li>
 
 					<li class="bg-[#1E1E1E] rounded-[22px] py-8 px-5">
-						<img class="mb-3" src="img/process/3.svg" alt="">
-						<h1 class="font-semibold text-[22px] text-white mb-3 leading-[120%]">Customer <br> Service & Support</h1>
-						<p class="font-normal text-[14px] leading-[150%] text-[#9A9A9A]">Work with a dedicated team of customer service and tech support reps who are constantly trained and speak multiple languages.</p>
+						<img class="mb-3" src="img/process/3.svg" alt="" />
+						<h1 class="font-semibold text-[22px] text-white mb-3 leading-[120%]">
+							Customer <br />
+							Service & Support
+						</h1>
+						<p class="font-normal text-[14px] leading-[150%] text-[#9A9A9A]">
+							Work with a dedicated team of customer service and tech support reps who are constantly trained and speak multiple
+							languages.
+						</p>
 					</li>
 				</ul>
 			</div>
 		</section>
 		<!-- PROCESS END -->
 
-<!-- PAYMENTS START -->
-<section class="pb-10 md:pb-20 bg-[#EFF0ED]">
-	<div class="max-w-250 px-5 mx-auto">
-		<div class="max-w-165.25 mx-auto text-start md:text-center">
-			<h1 class="font-semibold leading-[110%] text-[#121212] text-[32px] md:text-[48px] mb-5 md:mb-8">The Power of Payments <br>& Banking Combined</h1>
-				<p class="font-medium text-[14px] md:text-[20px] leading-[150%] mb-2.5 md:mb-5">Combine the power of payments & banking to improve your merchant's cash flow and access a new suite of financial tools for your merchants. </p>
-				<a class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-15" href="#">Get Started <img src="img/hero/up 2.svg" alt=""/></a>
+		<!-- PAYMENTS START -->
+		<section class="pb-10 md:pb-20 bg-[#EFF0ED]">
+			<div class="max-w-250 px-5 mx-auto">
+				<div class="max-w-165.25 mx-auto text-start md:text-center">
+					<h1 class="font-semibold leading-[110%] text-[#121212] text-[32px] md:text-[48px] mb-5 md:mb-8">
+						The Power of Payments <br />& Banking Combined
+					</h1>
+					<p class="font-medium text-[14px] md:text-[20px] leading-[150%] mb-2.5 md:mb-5">
+						Combine the power of payments & banking to improve your merchant's cash flow and access a new suite of financial tools
+						for your merchants.
+					</p>
+					<a
+						class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-15"
+						href="#"
+						>Get Started <img src="img/hero/up 2.svg" alt=""
+					/></a>
 				</div>
 
-			<div class="flex flex-col-reverse md:flex-row gap-2.5">
-				<ul class="max-w-full md:max-w-[470px] flex flex-col gap-2.5">
-					<li class="bg-white rounded-[22px] p-5">
-						<h1 class="font-semibold text-[20px] md:text-[28px] leading-[120%] mb-15 text-[#121212]">Multiply Your Portfolio's Value</h1>
-						<p class="text-[#121212] text-[15px] md:text-[20px] leading-[120%]">Multiply the value of your portfolio by upselling Netevia Banking to it or offering it to new merchants.</p>
+				<div class="flex flex-col-reverse md:flex-row gap-2.5">
+					<ul class="max-w-full md:max-w-[470px] flex flex-col gap-2.5">
+						<li class="bg-white rounded-[22px] p-5">
+							<h1 class="font-semibold text-[20px] md:text-[28px] leading-[120%] mb-15 text-[#121212]">
+								Multiply Your Portfolio's Value
+							</h1>
+							<p class="text-[#121212] text-[15px] md:text-[20px] leading-[120%]">
+								Multiply the value of your portfolio by upselling Netevia Banking to it or offering it to new merchants.
+							</p>
+						</li>
+
+						<li class="bg-white rounded-[22px] p-5">
+							<h1 class="font-semibold text-[20px] md:text-[28px] leading-[120%] mb-15 text-[#121212]">
+								Increased Customer Retention
+							</h1>
+							<p class="text-[#121212] text-[15px] md:text-[20px] leading-[120%]">
+								Grow your merchant retention rate by offering an ecosystem of products that increases your customer's lifetime
+								value.
+							</p>
+						</li>
+
+						<li class="bg-[#121212] rounded-[22px] p-5">
+							<h1 class="font-semibold text-[20px] md:text-[28px] leading-[120%] mb-15 text-white">
+								Instant Deposits for Merchants
+							</h1>
+							<p class="text-[#9A9A9A] text-[15px] md:text-[20px] leading-[120%]">
+								Give your merchants instant funding for free and let them get their hard-earned money quicker.
+							</p>
+						</li>
+					</ul>
+					<div class="max-w-full md:max-w-165.5 bg-white rounded-[22px] px-23.25 min-h-[311px] md:min-h-[470px]">
+						<p class="max-w-64.5 mx-auto mt-52.5 text-center text-[#9A9A9A] font-light text-[28px] leading-[120%]">
+							here will be animation<br />of terminal with card
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- PAYMENTS END -->
+
+		<!-- PARTNERSHIP START -->
+		<section class="bg-[#121212] py-10 md:py-20">
+			<div class="max-w-310 mx-auto px-5">
+				<div class="max-w-165.25 text-start md:text-center mx-auto">
+					<h1 class="font-semibold text-white text-[32px] md:text-[48px] mb-7">A Partnership to Fuel Growth</h1>
+					<p class="font-medium text-14px md:text-[20px] leading-[150%] text-white mb-5">
+						We reinvented the ISO program to focus on giving our partners all the tools to grow and build a future-proof business
+						so that they can multiply their portfolio value.
+					</p>
+					<a
+						class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-15"
+						href="#"
+						>Get Started <img src="img/hero/up.svg" alt=""
+					/></a>
+				</div>
+
+				<div class="flex-row md:flex justify-between max-w-215.75 mx-auto items-center">
+					<ul class="flex flex-col gap-4 md:gap-20 mb-4 md:mb-0">
+						<li class="max-w-full md:max-w-83.25 gap-2">
+							<img class="mb-7" src="img/blue circle.svg" alt="" />
+							<div>
+								<h2 class="font-semibold text-[20px] text-white mb-3.5">Marketing Tools</h2>
+								<p class="text-[#EFF0ED]">
+									Marketing materials that make your agent's selling process easier by explaining how our products and services
+									enhance business operations and increase revenue.
+								</p>
+							</div>
+						</li>
+
+						<li class="max-w-full md:max-w-83.25 gap-2">
+							<img class="mb-7" src="img/blue circle.svg" alt="" />
+							<div>
+								<h2 class="font-semibold text-[20px] text-white mb-3.5">Tech Stack</h2>
+								<p class="text-[#EFF0ED]">
+									From modern handheld terminals, gateways, APIs, and a BaaS platform, work with a partner that invests in
+									technology to ensure you can win against bigger competitors.
+								</p>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="flex flex-col gap-4 md:gap-20">
+						<li class="max-w-full md:max-w-83.25 gap-2">
+							<img class="mb-7" src="img/blue circle.svg" alt="" />
+							<div>
+								<h2 class="font-semibold text-[20px] text-white mb-3.5">White-Label Solutions</h2>
+								<p class="text-[#EFF0ED]">
+									Grow your brand recognition by white-labeling all our products and services with your brand, helping you
+									increase your customer loyalty.
+								</p>
+							</div>
+						</li>
+
+						<li class="max-w-full md:max-w-83.25 gap-2">
+							<img class="mb-7" src="img/blue circle.svg" alt="" />
+							<div>
+								<h2 class="font-semibold text-[20px] text-white mb-3.5">Marketing Tools</h2>
+								<p class="text-[#EFF0ED]">
+									Marketing materials that make your agent's selling process easier by explaining how our products and services
+									enhance business operations and increase revenue.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- PARTNERSHIP END -->
+
+		<!-- CAPITAL START -->
+		<section class="bg-[#EFF0ED] py-10 md:py-20">
+			<div class="max-w-310 mx-auto px-5 grid md:grid-cols-2 gap-12 bg-white rounded-[30px]">
+				<div class="flex-1 p-0 md:pl-14.75 py-13">
+					<h2 class="font-semibold text-[48px] leading-[110%] text-[#121212] mb-8">Netevia Capital</h2>
+					<p class="text-[#121212] text-[20px] mb-6">
+						Get access to a completely passive revenue stream by offering business loans to help drive your merchant’s business
+						growth with Netevia Capital.
+					</p>
+					<a
+						class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-0 md:mb-49"
+						href="#"
+						>Start here<img src="img/hero/up 2.svg" alt=""
+					/></a>
+
+					<div class="mt-10 block md:hidden">
+						<img src="img/capital/phone.svg" alt="" />
+					</div>
+
+					<div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-start md:text-center">
+						<div>
+							<h3 class="font-semibold text-[#121212] mb-2 text-[20px]">Drive Business Growth</h3>
+							<p class="text-gray-600 text-[16px]">
+								Help your merchants grow by giving them access to customized loan offers based on their card sales.
+							</p>
+						</div>
+						<div>
+							<h3 class="font-semibold text-[#121212] mb-2 text-[20px]">No Application Required</h3>
+							<p class="text-gray-600 text-[16px]">
+								Available for merchants using Payment and Banking Services with extra paperwork needed.
+							</p>
+						</div>
+						<div>
+							<h3 class="font-semibold text-[#121212] mb-2 text-[20px]">Passive lowkey Income</h3>
+							<p class="text-gray-600 text-[16px]">
+								Your pre-approved merchants receive their loan offers within their banking dashboard.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="flex-1 -mt-15 hidden md:flex justify-center md:justify-end">
+					<img src="img/capital/phone.svg" alt="" />
+				</div>
+			</div>
+		</section>
+		<!-- CAPITAL END -->
+
+		<!-- FUND START -->
+		<section class="bg-[#121212] py-10 md:py-20">
+			<div class="max-w-250 px-5 mx-auto">
+				<div class="max-w-158.25 mb-10 md:mb-15">
+					<h1 class="font-bold md:font-semibold text-[32px] md:text-[48px] text-white mb-5 md:mb-7">Netevia ISO Fund</h1>
+					<p class="font-normal md:font-medium text-white text-[16px] md:text-[20px] leading-[150%] mb-5">
+						We created a unique program called the Netevia ISO Fund. It is a residual-based financing program to boost the growth
+						of our ISOs and enable them to hire more employees or purchase more equipment without requiring an upfront investment.
+					</p>
+					<a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium" href="#"
+						>Get Started <img src="img/hero/up.svg" alt=""
+					/></a>
+				</div>
+				<ul class="flex flex-wrap md:flex-nowrap gap-3 md:gap-7">
+					<li class="bg-[#1e1e1e] rounded-xl p-5 w-full md:w-1/3 flex flex-col justify-between">
+						<h2
+							class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mt-0 md:mt-9 mb-9 md:mb-5">
+							Financing for the ISO Industry
+						</h2>
+						<p class="text-[#A9A9A9] font-normal text-[16px]">
+							Netevia boosts our ISO partners' growth by allowing them to leverage their portfolio's residual payments to access a
+							line of credit.
+						</p>
 					</li>
 
-					<li class="bg-white rounded-[22px] p-5">
-						<h1 class="font-semibold text-[20px] md:text-[28px] leading-[120%] mb-15 text-[#121212]">Increased Customer Retention</h1>
-						<p class="text-[#121212] text-[15px] md:text-[20px] leading-[120%]">Grow your merchant retention rate by offering an ecosystem of products that increases your customer's lifetime value.</p>
+					<li class="bg-[#1e1e1e] rounded-xl p-5 w-full md:w-1/3 flex flex-col justify-between">
+						<h2
+							class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mt-0 md:mt-9 mb-9 md:mb-5">
+							Repay <br />
+							from Residuals
+						</h2>
+						<p class="text-[#A9A9A9] font-normal text-[16px]">
+							We will collect a portion of your residual payment every month and automatically apply it to your balance.
+						</p>
 					</li>
 
-					<li class="bg-[#121212] rounded-[22px] p-5">
-						<h1 class="font-semibold text-[20px] md:text-[28px] leading-[120%] mb-15 text-white">Instant Deposits for Merchants</h1>
-						<p class="text-[#9A9A9A] text-[15px] md:text-[20px] leading-[120%]">Give your merchants instant funding for free and let them get their hard-earned money quicker.</p>
+					<li class="bg-[#1e1e1e] rounded-xl p-5 w-full md:w-1/3 flex flex-col justify-between">
+						<h2
+							class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mt-0 md:mt-9 mb-9 md:mb-5">
+							Boost Business <br />
+							Growth
+						</h2>
+						<p class="text-[#A9A9A9] font-normal text-[16px]">
+							Use the financing to hire employees, try new marketing initiatives, or purchase equipment to drive business growth.
+						</p>
 					</li>
 				</ul>
-    <div class="max-w-full md:max-w-165.5 bg-white rounded-[22px] px-23.25 min-h-[311px] md:min-h-[470px]"><p class="max-w-64.5 mx-auto mt-52.5 text-center text-[#9A9A9A] font-light text-[28px] leading-[120%]">here will be animation<br>of terminal with card</p></div>
-	</div>
-</section>
-<!-- PAYMENTS END -->
+			</div>
+		</section>
+		<!-- FUND END -->
 
-<!-- PARTNERSHIP START -->
-<section class="bg-[#121212] py-10 md:py-20 ">
-	<div class="max-w-310 mx-auto px-5">
-		<div class="max-w-165.25 text-start md:text-center mx-auto">
-			<h1 class="font-semibold text-white text-[32px] md:text-[48px] mb-7">A Partnership to Fuel Growth</h1>
-			<p class="font-medium text-14px md:text-[20px] leading-[150%] text-white mb-5">We reinvented the ISO program to focus on giving our partners all the tools to grow and build a future-proof business so that they can multiply their portfolio value.</p>
-			<a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-15" href="#">Get Started <img src="img/hero/up.svg" alt=""/></a>
-		</div>
-
-		<div class="flex-row md:flex justify-between max-w-215.75 mx-auto items-center">
-			<ul class="flex flex-col gap-4 md:gap-20 mb-4 md:mb-0">
-			<li class="max-w-full md:max-w-83.25 gap-2">
-				<img class="mb-7" src="img/blue circle.svg" alt="">
-				<div>
-					<h2 class="font-semibold text-[20px] text-white mb-3.5">Marketing Tools</h2>
-				<p class="text-[#EFF0ED]">Marketing materials that make your agent's selling process easier by explaining how our products and services enhance business operations and increase revenue.</p>
-				</div>
-			</li>
-
-			<li class="max-w-full md:max-w-83.25 gap-2">
-				<img class="mb-7" src="img/blue circle.svg" alt="">
-				<div>
-					<h2 class="font-semibold text-[20px] text-white mb-3.5">Tech Stack</h2>
-				<p class="text-[#EFF0ED]">From modern handheld terminals, gateways, APIs, and a BaaS platform, work with a partner that invests in technology to ensure you can win against bigger competitors.</p>
-				</div>
-			</li>
-		</ul>
-
-		<ul class="flex flex-col gap-4 md:gap-20">
-			<li class="max-w-full md:max-w-83.25 gap-2">
-				<img class="mb-7" src="img/blue circle.svg" alt="">
-				<div>
-					<h2 class="font-semibold text-[20px] text-white mb-3.5">White-Label Solutions</h2>
-				<p class="text-[#EFF0ED]">Grow your brand recognition by white-labeling all our products and services with your brand, helping you increase your customer loyalty.</p>
-				</div>
-			</li>
-
-			<li class="max-w-full md:max-w-83.25 gap-2">
-				<img class="mb-7" src="img/blue circle.svg" alt="">
-				<div>
-					<h2 class="font-semibold text-[20px] text-white mb-3.5">Marketing Tools</h2>
-				<p class="text-[#EFF0ED]">Marketing materials that make your agent's selling process easier by explaining how our products and services enhance business operations and increase revenue.</p>
-				</div>
-			</li>
-		</ul>
-		</div>
-	</div>
-</section>
-<!-- PARTNERSHIP END -->
-
-<!-- CAPITAL START -->
-<section class="bg-[#EFF0ED] py-10 md:py-20">
-  <div class="max-w-310 mx-auto px-5 grid md:grid-cols-2 gap-12 bg-white rounded-[30px]">
-    <div class="flex-1 p-0 md:pl-14.75  py-13">
-      <h2 class="font-semibold text-[48px] leading-[110%] text-[#121212] mb-8">Netevia Capital</h2>
-      <p class="text-[#121212] text-[20px] mb-6">
-        Get access to a completely passive revenue stream by offering business loans to help drive your merchant’s business growth with Netevia Capital.
-      </p>
-      <a class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium mb-0 md:mb-49" href="#">Start here<img src="img/hero/up 2.svg" alt=""/></a>
-
-      <div class="mt-10 block md:hidden">
-          <img src="img/capital/phone.svg" alt="">
-      </div>
-
-      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-start md:text-center">
-        <div>
-          <h3 class="font-semibold text-[#121212] mb-2 text-[20px]">Drive Business Growth</h3>
-          <p class="text-gray-600 text-[16px]">
-            Help your merchants grow by giving them access to customized loan offers based on their card sales.
-          </p>
-        </div>
-        <div>
-          <h3 class="font-semibold text-[#121212] mb-2 text-[20px]">No Application Required</h3>
-          <p class="text-gray-600 text-[16px]">
-            Available for merchants using Payment and Banking Services with extra paperwork needed.
-          </p>
-        </div>
-        <div>
-          <h3 class="font-semibold text-[#121212] mb-2 text-[20px]">Passive lowkey Income</h3>
-          <p class="text-gray-600 text-[16px]">
-            Your pre-approved merchants receive their loan offers within their banking dashboard.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex-1 -mt-15 hidden md:flex justify-center md:justify-end">
-      <img src="img/capital/phone.svg" alt="">
-    </div>
-  </div>
-</section>
-<!-- CAPITAL END -->
-
-<!-- FUND START -->
-<section class="bg-[#121212] py-10 md:py-20">
-	<div class="max-w-250 px-5 mx-auto">
-		<div class="max-w-158.25 mb-10 md:mb-15">
-			<h1 class="font-bold md:font-semibold text-[32px] md:text-[48px] text-white mb-5 md:mb-7">Netevia ISO Fund</h1>
-			<p class="font-normal md:font-medium text-white text-[16px] md:text-[20px] leading-[150%] mb-5">We created a unique program called the Netevia ISO Fund. It is a residual-based financing program to boost the growth of our ISOs and enable them to hire more employees or purchase more equipment without requiring an upfront investment. </p>
-			<a class="bg-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium" href="#">Get Started <img src="img/hero/up.svg" alt=""
+		<!-- BIN START -->
+		<section class="bg-[#eFF0ED] py-10 md:pt-20 pb-10">
+			<div class="max-w-309.75 px-5 mx-auto">
+				<div class="max-w-122.5 mb-10">
+					<h1 class="font-semibold text-[32px] leading-[110%] md:text-[60px] text-[#121212] mb-7">BIN Sponsorship Program</h1>
+					<p class="font-medium md:font-normal text-[#121212] text-[16px] md:text-[20px] leading-[100%] mb-5">
+						Your merchants are your customers. It is only logical that you have merchant portability, allowing you to move your
+						portfolio as you see fit.
+					</p>
+					<a
+						class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium"
+						href="#"
+						>Get Started <img src="img/hero/up 2.svg" alt=""
 					/></a>
-		</div>
-<ul class="flex flex-wrap md:flex-nowrap gap-3 md:gap-7">
-    <li class="bg-[#1e1e1e] rounded-xl p-5 w-full md:w-1/3 flex flex-col justify-between">
-        <h2 class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mt-0 md:mt-9 mb-9 md:mb-5">Financing for the ISO Industry</h2>
-        <p class="text-[#A9A9A9] font-normal text-[16px]">Netevia boosts our ISO partners' growth by allowing them to leverage their portfolio's residual payments to access a line of credit.</p>
-    </li>
+				</div>
 
-    <li class="bg-[#1e1e1e] rounded-xl p-5 w-full md:w-1/3 flex flex-col justify-between">
-        <h2 class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mt-0 md:mt-9 mb-9 md:mb-5">Repay <br> from Residuals</h2>
-        <p class="text-[#A9A9A9] font-normal text-[16px]">We will collect a portion of your residual payment every month and automatically apply it to your balance.</p>
-    </li>
+				<ul class="flex flex-wrap md:flex-nowrap gap-4 md:gap-6">
+					<li class="bg-white rounded-xl p-5 max-w-[384px] max-w-full">
+						<h2 class="text-[#121212] font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mb-9 md:mb-25">
+							Better Pricing
+						</h2>
+						<p class="text-[#121212]/70 font-normal text-[16px]">
+							Offer your merchants better pricing structures and take advantage of the higher margins.
+						</p>
+					</li>
 
-    <li class="bg-[#1e1e1e] rounded-xl p-5 w-full md:w-1/3 flex flex-col justify-between">
-        <h2 class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mt-0 md:mt-9 mb-9 md:mb-5">Boost Business <br> Growth</h2>
-        <p class="text-[#A9A9A9] font-normal text-[16px]">Use the financing to hire employees, try new marketing initiatives, or purchase equipment to drive business growth.</p>
-    </li>
-</ul>
-	</div>
-</section>
-<!-- FUND END -->
+					<li class="bg-white rounded-xl p-5 max-w-[384px] max-w-full">
+						<h2 class="text-[#121212] font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mb-9 md:mb-25">
+							Become a Partner
+						</h2>
+						<p class="text-[#121212]/70 font-normal text-[16px]">
+							Offer your merchants better pricing structures and take advantage of the higher margins.
+						</p>
+					</li>
 
-<!-- BIN START -->
-<section class="bg-[#eFF0ED] py-10 md:pt-20 pb-10">
-	<div class="max-w-309.75 px-5 mx-auto">
-		<div class="max-w-122.5 mb-10">
-			<h1 class="font-semibold text-[32px] leading-[110%] md:text-[60px] text-[#121212] mb-7">BIN Sponsorship Program</h1>
-			<p class="font-medium md:font-normal text-[#121212] text-[16px] md:text-[20px] leading-[100%] mb-5">Your merchants are your customers. It is only logical that you have merchant portability, allowing you to move your portfolio as you see fit.</p>
-			<a class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium " href="#">Get Started <img src="img/hero/up 2.svg" alt=""/></a>
-		</div>
-
-		<ul class="flex flex-wrap md:flex-nowrap gap-4 md:gap-6">
-			<li class="bg-white rounded-xl p-5 max-w-[384px] max-w-full">
-				<h2 class="text-[#121212] font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mb-9  md:mb-25">Better Pricing</h2>
-				<p class="text-[#121212]/70 font-normal text-[16px]">Offer your merchants better pricing structures and take advantage of the higher margins.</p>
-			</li>
-
-			<li class="bg-white rounded-xl p-5 max-w-[384px] max-w-full">
-				<h2 class="text-[#121212] font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mb-9  md:mb-25">Become a Partner</h2>
-				<p class="text-[#121212]/70 font-normal text-[16px]">Offer your merchants better pricing structures and take advantage of the higher margins.</p>
-			</li>
-
-			<li class=" md:-translate-y-1/2 bg-[#121212] rounded-xl p-5 max-w-full md:max-w-[384px]">
-				<h2 class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mb-9  md:mb-25">Win & Retain Merchants</h2>
-				<p class="text-white/70 font-normal text-[16px]">Offer your merchants better pricing structures and take advantage of the higher margins.</p>
-			</li>
-		</ul>
-	</div>
-</section>
-<!-- BIN END -->
-
-<!-- H&S START-->
-<section class="bg-[#eff0ed] md:py-10">
-	<div class="max-w-310.75 mx-auto px-5">
-		<div class="text-start md:text-center max-w-182.25 mx-auto pb-20">
-			<h1 class="font-semibold text-[48px] md:text-[60px] leading-[110%] text-[#121212] mb-7">Hardware & Software for All Industries</h1>
-			<p class="font-medium text-[20px]  md:text-[22px] leading-[150%] mb-5">At Netevia, we spend our time ensuring we have the best hardware and software for a wide range of verticals to allow our ISOs to excel in whatever industry they want to sell to.</p>
-			<a class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium " href="#">Get Started <img src="img/hero/up 2.svg" alt=""/></a>
-		</div>
-
-		<div class="grid grid-cols-2 gap-8 items-center">
-			<div class="">
-				<h2 class="font-semibold text-[32px] md:text-[48px] leading-[110%] mb-5 md:mb-10">Netevia Terminals</h2>
-				<p class="font-normal text-[24px] text-[#121212]/60 mb-5">The Netevia N Series terminals, integrated with our POS GO software, represent our handheld smart terminal solution designed to cater to various industries.</p>
-				<a class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium " href="#">Get Started <img src="img/hero/up 2.svg" alt=""/></a>
+					<li class="md:-translate-y-1/2 bg-[#121212] rounded-xl p-5 max-w-full md:max-w-[384px]">
+						<h2 class="text-white font-semibold text-[22px] md:text-[24px] leading-[120%] md:leading-[110%] mb-9 md:mb-25">
+							Win & Retain Merchants
+						</h2>
+						<p class="text-white/70 font-normal text-[16px]">
+							Offer your merchants better pricing structures and take advantage of the higher margins.
+						</p>
+					</li>
+				</ul>
 			</div>
-			<div class="bg-[#e9e9e9] max-w-146.25 rounded-[19px]">
-				<img class="max-w-108.25" src="img/H&S/photo 1.svg" alt="">
+		</section>
+		<!-- BIN END -->
+
+		<!-- H&S START-->
+		<section class="bg-[#eff0ed] md:py-10">
+			<div class="max-w-310.75 mx-auto px-5">
+				<div class="text-start md:text-center max-w-182.25 mx-auto pb-20">
+					<h1 class="font-semibold text-[48px] md:text-[60px] leading-[110%] text-[#121212] mb-7">
+						Hardware & Software for All Industries
+					</h1>
+					<p class="font-medium text-[20px] md:text-[22px] leading-[150%] mb-5">
+						At Netevia, we spend our time ensuring we have the best hardware and software for a wide range of verticals to allow
+						our ISOs to excel in whatever industry they want to sell to.
+					</p>
+					<a
+						class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium"
+						href="#"
+						>Get Started <img src="img/hero/up 2.svg" alt=""
+					/></a>
+				</div>
+
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+								<div class="">
+									<h2 class="font-semibold text-[32px] md:text-[48px] leading-[110%] mb-5 md:mb-10">Netevia Terminals</h2>
+									<p class="font-normal text-[18px] md:text-[24px] text-[#121212]/60 mb-5">
+										The Netevia N Series terminals, integrated with our POS GO software, represent our handheld smart terminal
+										solution designed to cater to various industries.
+									</p>
+									<a
+										class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium"
+										href="#"
+										>Get Started <img src="img/hero/up 2.svg" alt=""
+									/></a>
+								</div>
+
+								<div
+									class="relative bg-[#e9e9e9] max-w-[400px] md:max-w-[585px] rounded-[19px] h-[407px] md:h-150 flex items-center justify-center">
+									<img class="absolute top-10 left-9" src="img/H&S/photo 1 logo.svg" alt="" />
+									<img class="max-w-[300px] md:max-w-[433px]" src="img/H&S/photo 1.png" alt="" />
+
+									<div class="flex gap-8 absolute bottom-6 left-7">
+										<button
+											class="sectionPrev border-2 border-[#121212] w-7 md:w-10 h-7 md:h-10 opacity-70 rounded-[6px] flex items-center justify-center">
+											<img src="img/H&S/left.svg" alt="" />
+										</button>
+										<button
+											class="sectionNext border-2 border-[#121212] w-7 md:w-10 h- md:h-10 opacity-70 rounded-[6px] flex items-center justify-center">
+											<img src="img/H&S/right.svg" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+								<div class="">
+									<h2 class="font-semibold text-[32px] md:text-[48px] leading-[110%] mb-5 md:mb-10">PAX Hardware</h2>
+									<p class="font-normal text-[18px] md:text-[24px] text-[#121212]/60 mb-5">
+										We are bringing PAX hardware into the Netevia ecosystem. Experience the Elys Workstation with our software
+										partner, On The Fly POS, or the A920 with Netevia POS GO.
+									</p>
+									<a
+										class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium"
+										href="#"
+										>Get Started <img src="img/hero/up 2.svg" alt=""
+									/></a>
+								</div>
+
+								<div
+									class="relative bg-[#e9e9e9] max-w-[400px] md:max-w-[585px] rounded-[19px] h-[407px] md:h-150 flex items-center justify-center">
+									<img class="absolute top-10 left-9" src="img/H&S/photo 2 logo.svg" alt="" />
+									<img class="max-w-[300px] md:max-w-[433px]" src="img/H&S/photo 2.png" alt="" />
+
+									<div class="flex gap-8 absolute bottom-6 left-7">
+										<button
+											class="sectionPrev border-2 border-[#121212] w-7 md:w-10 h-7 md:h-10 opacity-70 rounded-[6px] flex items-center justify-center">
+											<img src="img/H&S/left.svg" alt="" />
+										</button>
+										<button
+											class="sectionNext border-2 border-[#121212] w-7 md:w-10 h- md:h-10 opacity-70 rounded-[6px] flex items-center justify-center">
+											<img src="img/H&S/right.svg" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+								<div class="">
+									<h2 class="font-semibold text-[32px] md:text-[48px] leading-[110%] mb-5 md:mb-10">Clover Hardware</h2>
+									<p class="font-normal text-[18px] md:text-[24px] text-[#121212]/60 mb-5">
+										We enhanced the typical Clover POS with our software partner, OrderOut. Let your merchants connect 3rd-party
+										delivery platforms to their Clover POS system automatically.
+									</p>
+									<a
+										class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium"
+										href="#"
+										>Get Started <img src="img/hero/up 2.svg" alt=""
+									/></a>
+								</div>
+
+								<div
+									class="relative bg-[#e9e9e9] max-w-[400px] md:max-w-[585px] rounded-[19px] h-[407px] md:h-150 flex items-center justify-center">
+									<img class="absolute top-10 left-9" src="img/H&S/photo 3 logo.svg" alt="" />
+									<img class="max-w-[300px] md:max-w-[433px]" src="img/H&S/photo 3.png" alt="" />
+
+									<div class="flex gap-8 absolute bottom-6 left-7">
+										<button
+											class="sectionPrev border-2 border-[#121212] w-7 md:w-10 h-7 md:h-10 opacity-70 rounded-[6px] flex items-center justify-center">
+											<img src="img/H&S/left.svg" alt="" />
+										</button>
+										<button
+											class="sectionNext border-2 border-[#121212] w-7 md:w-10 h- md:h-10 opacity-70 rounded-[6px] flex items-center justify-center">
+											<img src="img/H&S/right.svg" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- COMPANY START -->
+		<div class="max-w-207.75 mx-auto px-5 py-20 ">
+			<h1 class="font-semibold text-[30px] md:text-[48px] leading-[110%] text-center text-[#121212] mb-5 md:mb-10">Bring Your Own Hardware</h1>
+			<div class="flex items-center">
+				<div class="flex flex-col gap-18">
+					<img src="img/company/aloha.svg" alt="all" width="132" height="43">
+					<img src="img/company/valor.svg" alt="valor" width="152" height="60">
+				</div>
+
+				<div class="w-0.5 h-28.25 bg-[#000000]/32 mx-14"></div>
+
+				<div class="flex flex-col gap-19">
+					<img src="img/company/verifon.svg" alt="verifone" width="220" height="54">
+					<img src="img/company/ingenico.svg" alt="ingenico" width="150" height="42" >
+				</div>
+
+				<div class="w-0.5 h-28.25 bg-[#000000]/32 mx-14"></div>
+
+				<div class="flex flex-col gap-14">
+					<img src="img/company/micros.svg" alt="micros" width="116" height="31">
+					<img src="img/company/deja voo.svg" alt="deja" width="185" height="78">
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<!-- H&S END -->
-<script src="js/app.js"></script>
+		<!-- COMPANY END -->
+
+		<!-- PARTNERS START -->
+    <div class="max-w-310 mx-auto px-5 pb-10 md:pb-20">
+			<div class="max-w-[762px] text-center mx-auto mb-5 md:mb-10">
+				<h1 class="font-semibold text-[36px] md:text-[48px] text-[#121212] leading-[110%]  mb-5 md:mb-8">Integrated Software Partners</h1>
+				<p class="font-medium text-[16px] md:text-[22px] leading-[120%] md:leading-[150%] text-[#121212] mb-3 md:mb-5">We partnered with some of the industry's best point of sale software providers to provide our ISO with tools to serve their merchants better.</p>
+				<a class="bg-[#121212] text-white py-2.5 px-6 rounded-[55px] cursor-pointer inline-flex gap-1.5 text-sm leading-5 font-medium" href="#">Get Started <img src="img/hero/up 2.svg" alt=""/></a>
+			</div>
+
+			<ul class="flex flex-col gap-3 md:flex-row md:gap-6">
+				<li class="bg-white rounded-[22px] p-[13px]">
+					<div class="bg-[linear-gradient(78.14deg,_#F9F9F9_0%,_#E8E8E8_100%)] rounded-[12px]
+					py-21 px-5 mb-4">
+						<img src="img/partners/1.png" alt="">
+					</div>
+					<h2 class="font-semibold text-[24px] mb-[5px] leading-[150%] text-[#121212]">On The Fly POS</h2>
+					<p class="font-medium text-[18px] text-[#121212]/80">The flexibility to combine different Android devices to create the perfect solution for your merchants.</p>
+				</li>
+
+				<li class="bg-white rounded-[22px] p-[13px]">
+					<div class="bg-[linear-gradient(78.14deg,_#F9F9F9_0%,_#E8E8E8_100%)] rounded-[12px]
+					py-25 px-11 mb-4">
+					<img src="img/partners/2.png" alt="">
+				</div>
+					<h2 class="font-semibold text-[24px] mb-[5px] leading-[150%] text-[#121212]">eHopper</h2>
+					<p class="font-medium text-[18px] text-[#121212]/80">An All-in-One cloud-based POS for any business type available on multiple devices and platforms.</p>
+				</li>
+
+				<li class="bg-white rounded-[22px] p-[13px]">
+					<div class="bg-[linear-gradient(78.14deg,_#F9F9F9_0%,_#E8E8E8_100%)] rounded-[12px]
+					py-22 px-11 mb-4">
+						<img src="img/partners/3.png" alt="">
+					</div>
+					<h2 class="font-semibold text-[24px] mb-[5px] leading-[150%] text-[#121212]">FranPOS</h2>
+					<p class="font-medium text-[18px] text-[#121212]/80">A retail franchise POS built to allow merchants to manage all aspects of their business from one system.</p>
+				</li>
+			</ul>
+		</div>
+		<!-- PARTNERS END -->
+		</section>
+		<!-- H&S END -->
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+		<script src="app.js"></script>
 	</body>
 </html>
